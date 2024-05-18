@@ -1,0 +1,226 @@
+@media screen and (max-width: 780px) {
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+    height: 80px; 
+    padding: 0px 80px;
+    align-items: center;
+    content: "";
+    background-color: #eee;
+}
+
+.logo > img{
+    max-width: 50px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 65vh;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav > li, a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+/* first-section*/
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-section input[type= "email"] {
+    padding: 5px;
+    max-width: 275px;
+    width: 100%;
+}
+
+.first-section input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+/* second-section*/
+
+.second-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex {
+    padding: 5px;
+    display: flex;
+    height: 125px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    gap: 60px;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 80px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+    line-height: 1.3;
+}
+
+.text-container {
+    padding: 10px 40px;
+    line-height: 2.0;
+}
+
+.flex h2, p {
+    margin: 2px 0px;
+}
+
+/* third-section */
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 560px;
+    width: 100%;
+}
+
+.prices-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+}
+
+.prices {
+    border: 1px solid;
+    text-align: center;
+    height: 430px;
+    margin: 10px;
+    width: 100%;
+}
+
+.prices > h2 {
+    background-color: #ddd;
+    color: black;
+    width: 100%;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.piano-prices {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.select-bottom {
+    width: 35%;
+    height: 40px;
+    margin: 15px 0px;
+    /* padding: 15px 0px; */
+    border: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #f1c40f;
+}
+
+footer {
+    margin: 30px 0px 0px;
+    padding: 20px;
+    width: 100%;
+    height: 80px;
+    content: "";
+    background-color: #ddd;
+}
+
+footer > ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #444;
+}
